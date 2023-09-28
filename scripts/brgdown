@@ -1,0 +1,10 @@
+#! /bin/bash
+
+declare -i BRG=$(brightnessctl g) 
+
+if [[ $BRG -gt 2880 ]] then
+	brightnessctl -q set 5%- && ( echo $((`brightnessctl get` * 100 / `brightnessctl m`)) > $SWAYSOCK.wob )
+
+else
+	brightnessctl -q set 1%- && ( echo $((`brightnessctl get` * 100 / `brightnessctl m`)) > $SWAYSOCK.wob )
+fi

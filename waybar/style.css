@@ -1,0 +1,102 @@
+
+
+* {
+  font-family: "JetBrains Mono";
+  font-weight: bold;
+  font-size: 12px;
+  min-height: 0;
+  /* color: #d8dee9; */
+  color: #c5c8c6;
+}
+
+window#waybar {
+  /* background: transparent; */
+  /* background: black; */
+  background: #1d1f21;
+  /*color: white;*/
+  border-top: 2px solid #f0c674;
+  border-bottom: 2px solid #f0c674;
+  border-right: 2px solid #f0c674;
+  border-radius: 0 6px 6px 0;
+}
+	
+#window
+{
+	padding: 0 5px;
+	margin-left: 5px;
+}
+
+#workspaces,
+#mode
+#tray,
+#stab,
+#custom-japan,
+#custom-germany,
+#temperature,
+#clock,
+#battery,
+#cpu,
+#backlight,
+#memory,
+#network,
+#pulseaudio {
+  padding: 0 5px;
+  margin-right: 1.5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#workspaces button:hover {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	background: #878787;
+	border: 1px
+}
+
+#workspaces button.focused {
+	background: #878787;
+		
+}
+
+#temperature.critical {
+  color: #bf616A;
+}
+
+#battery icon {
+  color: #b62d66;
+}
+
+#battery.charging {
+  border-bottom: 1px dotted #a3be8c;
+}
+
+@keyframes blink {
+  to {
+    background-color: #8fd4ff;
+    color: black;
+  }
+}
+
+#battery.warning:not(.charging) {
+  color: white;
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  border-radius: 5px;
+}
+
+#battery.warning:not(.charging) {
+  color: white;
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  border-radius: 5px;
+}
+
+#network.disconnected {
+  color: #b62d66;
+}

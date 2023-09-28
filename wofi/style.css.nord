@@ -1,0 +1,58 @@
+#window {
+margin: 0px;
+border: 2px solid;
+border-color: #8fbcbb;
+border-radius: 7px;
+background-color: #2E3440;
+}
+
+#input {
+font: JetBrains Mono Bold;
+margin:10px;
+border:  2px solid #4c566a;
+border-radius: 5px;
+color: #e5e9f0;
+background-color: #3b4252;
+font-size: 16px
+}
+
+#inner-box {
+margin: 10px;
+border:  2px solid #4c566a;
+border-radius: 5px;
+background-color: #3b4252;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: #2e3440;
+}
+
+#scroll {
+margin: 0px;
+border: none;
+color: #e5e9f0
+}
+
+#scroll:selected {
+color: #e5e9f0;
+}
+
+#text {
+font: JetBrains Mono Bold;
+size: 14;
+margin: 8px;
+border: none;
+color: #e5e9f0;
+}
+
+#text:selected {
+color: #e5e9f0
+}
+#entry:selected {
+background-color: #2e3440;
+border: 1px solid #ebcb8b;
+border-radius: 4px;
+margin: 1px;
+}
