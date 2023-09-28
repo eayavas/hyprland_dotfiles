@@ -9,7 +9,7 @@
 ---
 
 ## Contributor(s)
-* [Efe ARda YAVAŞ](https://github.com/eayavas) -- Maintainer
+* [Efe Arda YAVAŞ](https://github.com/eayavas) -- Maintainer
 
 ---
 
@@ -17,7 +17,7 @@
 
 All PR’s are welcome!
 
-1. `fork` (https://github.com/vigo/stringutils-demo/fork)
+1. `fork` (https://github.com/eayavas/hyprland_dotfiles/fork)
 2. Create your `branch` (`git checkout -b my-feature`)
 3. `commit` yours (`git commit -am 'add some functionality'`)
 4. `push` your `branch` (`git push origin my-feature`)
