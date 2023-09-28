@@ -5,7 +5,21 @@ This Repository contains my Hyprland (A dynamic tiling Wayland compositor based 
 ---
 
 ## Usage
-Just copy the config files to "/home/\<username\>/.config directory". Reccomended location for script files is "/home/\<username\>/.local/bin" 
+
+#### Hypr, Waybar & Wofi directories:
+Just copy the config files to "/home/\<username\>/.config directory".
+
+* Dont forget the check config files for your software/hardware setup. (For example: monitor settings of hyprland.)
+
+#### scripts directory:
+Reccomended location for script files is "/home/\<username\>/.local/bin" 
+
+* The execution of scripts may vary from distribution to distribution. It's known that this scripts work on Fedora Workstation 38 and openSUSE Tumbleweed.
+
+#### Wallpapers:
+I added some wallpapers which are look good with color settings of window decorations, bar colors and application launcher colors.
+
+Check for different wallpapers: [DesktopWallps Telegram Channel](https://t.me/desktopwallps)
 
 ---
 
