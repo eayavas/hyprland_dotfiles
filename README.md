@@ -1,10 +1,11 @@
 ## Hyprland Config Files
-    This Repository contains my Hyprland (A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.) configuration files includes Waybar, Wofi and some other scripts.
+
+This Repository contains my Hyprland (A dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.) configuration files includes Waybar, Wofi and some other scripts.
 
 ---
 
 ## Usage
-    Just copy the config files to "/home/<username>/.config directory". Reccomended location for script files is "/home/<username>/.local/bin" 
+Just copy the config files to "/home/<username>/.config directory". Reccomended location for script files is "/home/<username>/.local/bin" 
 
 ---
 
