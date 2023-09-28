@@ -5,7 +5,7 @@ This Repository contains my Hyprland (A dynamic tiling Wayland compositor based 
 ---
 
 ## Usage
-Just copy the config files to "/home/<username>/.config directory". Reccomended location for script files is "/home/<username>/.local/bin" 
+Just copy the config files to "/home/\<username\>/.config directory". Reccomended location for script files is "/home/\<username\>/.local/bin" 
 
 ---
 
