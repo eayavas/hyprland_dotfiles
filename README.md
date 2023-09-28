@@ -23,6 +23,14 @@ Check for different wallpapers: [DesktopWallps Telegram Channel](https://t.me/de
 
 ---
 
+## Screenshot
+
+![screenshot](https://github.com/eayavas/hyprland_dotfiles/blob/main/screenshot.jpg)
+
+Resolution of the monitors where the screenshot was taken is 2560x1440
+
+---
+
 ## Contributor(s)
 * [Efe Arda YAVAŞ](https://github.com/eayavas) -- Maintainer
 
