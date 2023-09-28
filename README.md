@@ -6,13 +6,13 @@ This Repository contains my Hyprland (A dynamic tiling Wayland compositor based 
 
 ## Usage
 
-#### Hypr, Waybar & Wofi directories:
+#### hypr, waybar, foot & wofi directories:
 Just copy the config files to "/home/\<username\>/.config directory".
 
 * Dont forget the check config files for your software/hardware setup. (For example: monitor settings of hyprland.)
 
 #### scripts directory:
-Reccomended location for script files is "/home/\<username\>/.local/bin" 
+Recommended location for script files is "/home/\<username\>/.local/bin" 
 
 * The execution of scripts may vary from distribution to distribution. It's known that this scripts work on Fedora Workstation 38 and openSUSE Tumbleweed.
 
