@@ -9,7 +9,7 @@ This Repository contains my Hyprland (A dynamic tiling Wayland compositor based 
 #### hypr, waybar, foot & wofi directories:
 Just copy the config files to "/home/\<username\>/.config directory".
 
-* Dont forget the check config files for your software/hardware setup. (For example: monitor settings of hyprland.)
+* Dont forget to check config files for your software/hardware setup. (For example: monitor settings of hyprland.)
 
 #### scripts directory:
 Recommended location for script files is "/home/\<username\>/.local/bin" 
